@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  # Servicio web que corre la aplicación Django
+  web:
+    build: .
+    container_name: to-do-backend
+    command: >
+      sh -c "python manage.py migrate &&
+             gunicorn core.wsgi:application --bind 0.0.0.0:8000 --workers 4"
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=${DEBUG}
+      - SECRET_KEY=${SECRET_KEY}
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      # Usamos host.docker.internal para comunicarnos con el puerto 5433 expuesto en tu máquina
+      - DB_HOST=host.docker.internal 
+      - DB_PORT=${DB_PORT}
+    volumes:
+      - .:/app
+    restart: unless-stopped
