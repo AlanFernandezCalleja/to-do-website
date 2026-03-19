@@ -15,6 +15,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema antes de empezar:
 
 Primero, clona este repositorio en tu máquina local:
 ```bash
-git clone [https://github.com/](https://github.com/)[TU-USUARIO]/[TU-REPO].git
-cd [TU-REPO]
+git clone https://github.com/AlanFernandezCalleja/to-do-website.git
+cd to-do-website
+
 
