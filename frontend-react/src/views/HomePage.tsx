@@ -10,12 +10,13 @@ export const HomePage = () => {
         <div className="home-hero-content">
           <span className="home-badge">Organiza tu día ✓</span>
           <h1 className="home-headline">
-            Tu lista de tareas,<br />
+            Tu lista de tareas,
+            <br />
             <span className="home-headline-accent">simple y efectiva.</span>
           </h1>
           <p className="home-subtext">
-            Crea, gestiona y completa tus tareas diarias en un solo lugar.
-            Sin complicaciones, solo resultados.
+            Crea, gestiona y completa tus tareas diarias en un solo lugar. Sin
+            complicaciones, solo resultados.
           </p>
           <div className="home-cta-group">
             <Link to="/RegisterPage" className="btn-cta btn-cta-primary">
@@ -50,9 +51,10 @@ export const HomePage = () => {
             </ul>
           </div>
         </div>
+
+        
       </main>
+      <footer></footer>
     </div>
   );
 };
-
-
