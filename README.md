@@ -2,7 +2,7 @@
 
 ¡Bienvenido/a a **To do web app - Open Source**! Esta es una aplicación web full-stack creada con **React** en el frontend y **Django** en el backend, con una base de datos PostgreSQL. Todo el backend está containerizado para que sea fácil de levantar en cualquier computadora.
 aplicacion
-![Vista del Tablero](./assets/captura-juego.png)
+![Vista del Tablero](./img/todowebsite)
 ## 📋 Requisitos Previos
 
 Asegúrate de tener instalado lo siguiente en tu sistema antes de empezar:
