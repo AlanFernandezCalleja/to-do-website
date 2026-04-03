@@ -1,6 +1,7 @@
 # 🚀 To Do web app - Open Source
 
 ¡Bienvenido/a a **To do web app - Open Source**! Esta es una aplicación web full-stack creada con **React** en el frontend y **Django** en el backend, con una base de datos PostgreSQL. Todo el backend está containerizado para que sea fácil de levantar en cualquier computadora.
+aplicacion
 
 ## 📋 Requisitos Previos
 
